@@ -1,5 +1,5 @@
 - name: Form - A calisthenics workout app
-  description: Form is a calisthenics workout tracker that allows you to record video your exercises and compare them to your past performance.
+  description: Form is a calisthenics workout tracker that allows you to record video your exercises and compare them to  your past performance.
   image: projects/form.png
   url: https://www.form-calisthenics.com/
   github: https://github.com/nkmatsumoto/form_calisthenics_app
@@ -13,11 +13,11 @@
   online: true
 
 - name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
+  description: A game where you try to find the longest word in a given set of letters.
+  image: projects/word_game.png
   url: https://www.google.com
   github: https://www.github.com
-  online: true
+  online: false
 
 - name: Movie Watchlist
   description: Decent description of the app
@@ -33,3 +33,9 @@
   github: https://www.github.com
   online: false
 
+- name: Yelp
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: false
