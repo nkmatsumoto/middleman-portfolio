@@ -1,25 +1,25 @@
-- name: Form - A calisthenics workout tracker that records videos of your form
-  description: Form is a calisthenics workout tracker that allows you to record video your exercises, store them as part of your workout log and compare to your your past performance.
+- name: Form - A calisthenics workout app
+  description: Form is a calisthenics workout tracker that allows you to record video your exercises and compare them to your past performance.
   image: projects/form.png
   url: https://www.form-calisthenics.com/
   github: https://github.com/nkmatsumoto/form_calisthenics_app
   online: true
 
-- name: Movie Watchlist
+- name: Turbo - Rent your dream car today!
+  description: Turbo is a car rental app that allows you to rent super cars in Japan.
+  image: projects/turbo.png
+  url: https://car-rental-1715-bba1fbc9061d.herokuapp.com
+  github: https://github.com/nkmatsumoto/car-rental
+  online: true
+
+- name: Longest Word Game
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
   github: https://www.github.com
   online: true
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.pngform
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Final project
+- name: Movie Watchlist
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
@@ -32,3 +32,4 @@
   url: https://www.google.com
   github: https://www.github.com
   online: false
+
