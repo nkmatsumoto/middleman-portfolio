@@ -7,6 +7,7 @@
 .card-product {
   overflow: hidden;
   height: 300px;
+  width: 100%;
   border-radius: 16px;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -17,9 +18,10 @@
 }
 
 .card-product img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
+  width: 100%; /* Make sure the image takes the full width of the container */
+  height: 220px; /* Keep the aspect ratio intact */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+  object-position: top; /* Aligns the image from the top */
 }
 
 .card-product h2 {
