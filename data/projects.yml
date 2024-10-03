@@ -12,6 +12,13 @@
   github: https://github.com/nkmatsumoto/car-rental
   online: true
 
+- name: Kojex International
+  description: Kojex International is a trading company that facilitates exports and imports with Japan.
+  image: projects/kojex.png
+  url: https://www.kojex.jp
+  github: https://github.com/nkmatsumoto
+  online: true
+
 - name: Longest Word Game
   description: A game where you try to find the longest word in a given set of letters.
   image: projects/word_game.png

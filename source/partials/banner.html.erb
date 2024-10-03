@@ -1,7 +1,23 @@
 <div class="row justify-content-center banner">
-  <div class="col-12 d-flex flex-column justify-content-center align-items-center h-100">
-    <%= image_tag 'nkm-removebg-crop.png', alt: "profile photo", class: 'avatar' %>
+  <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+    <%= image_tag 'nkm_DemoDay.jpg', alt: "profile photo", class: 'avatar' %>
     <h1 class="title-main">Nicholas Matsumoto</h1>
-    <%= partial 'partials/social' %>
+    <h2 class="title-sub">Full Stack Developer</h2>
+    <div id="contact">
+      <div class="d-flex justify-content-center flex-wrap">
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-solid fa-envelope"></i>
+          <%= mail_to "nk.matsumoto.dec@gmail.com", "", class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-github"></i>
+          <%= link_to "", "https://github.com/nkmatsumoto", target: '_blank', class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-linkedin"></i>
+          <%= link_to "", "https://www.linkedin.com/in/nkmatsumoto", target: '_blank', class: 'button-social-link' %>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
