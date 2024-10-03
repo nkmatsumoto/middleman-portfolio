@@ -27,22 +27,16 @@
   online: false
 
 - name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
+  description: A movie watchlist app that allows you to keep track of movies you want to watch.
+  image: projects/movies.png
   url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/nkmatsumoto
   online: false
 
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Yelp Restaurant Finder clone
+  description: A clone of the Yelp Restaurant Finder app.
+  image: projects/yelp.png
   url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/nkmatsumoto
   online: false
+
